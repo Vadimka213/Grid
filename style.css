@@ -4,11 +4,9 @@
     background-color: rgb(1, 153, 255);
 }
 
-
 .body{
     display: grid;
 }
-
 
 .header-container{
     grid-template-columns: 300px 1fr;
@@ -19,9 +17,7 @@
     width: 1500px;
     margin: 0 auto;
     outline: 1px solid red;
-
 }
-
 
 .image{
     width: 150px;
@@ -34,7 +30,6 @@
 display: grid;
     grid-template-columns: 1fr;
 background-color: rgb(78, 165, 223);
-
 }
 
 .navigation{
@@ -51,9 +46,7 @@ display: flex;
 justify-content: center;
 gap: 12px;
 padding-top: 50px;
-
 }
-
 
 button{
     padding: 10px 20px;
@@ -92,7 +85,6 @@ button{
     gap: 12px;
     list-style: none;
     padding: 0;
-
 }
 
 .gallery-items:nth-child(1) {
@@ -126,5 +118,4 @@ button{
 .navigation{
     display: flex;
     justify-content: center;
-   
 }
